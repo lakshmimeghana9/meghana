@@ -1,0 +1,29 @@
+<div class="home-content">
+    <h1>event reminder webpage</h1>
+    <div class="events">
+        <div>
+            <div ng-repeat="event in events" ng-init="runningevents(event)"></div>
+            <h2>career opportunities after UG</h2>
+            <ul class="events-list">
+                <li ng-repeat="event in runningEvents">
+                    <h3>information session on career opportunities by Dr.ABCD</h3>
+                    <h4> Entry Fees: 100/- per person</h4>
+                    <h5> hosted by: school of computer science</h5>
+                    <h5> Date: 28th apr 2022 </h5>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <div ng-repeat="event in events" ng-init="upcomingevents(event)"></div>
+            <h2>IOT webinar</h2>
+            <ul class="events-list">
+                <li ng-repeat="event in upcomingEvents">
+                    <h3>a webinar on internet of things by Dr.PQRS and Dr.opla</h3>
+                    <h4> Entry Fees: 300/- per team</h4>
+                    <h5> hosted by: sENSE</h5>
+                    <h5> Date: 1st may 2022 </h5>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
